@@ -1,3 +1,6 @@
-h1 {
-  color: red;
+.todo-item{
+  padding: 10px 0;
+  border-top: solid 1px #ddd;
+  min-height: 30px;
+  line-height: 30px
 }
