@@ -13,7 +13,7 @@
 
 .todo-app::before, .todo-app::after{
   content: '';
-  position: 'absolute';
+  position: absolute;
   z-index: -1;
   height: 4px;
   background: white;
