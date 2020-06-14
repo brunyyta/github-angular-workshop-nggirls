@@ -9,7 +9,9 @@ import { TodoItem } from '../interfaces/todo-item';
            class = "todo-checkbox"
            (click)="completeItem()"
     />
-    {{ item.title }}
+    <span class="todo-title" [ngClass]="{'todo-complete':item.completed}">
+      {{ item.title }}
+    </span>
 
     <button class="btn btn-red" (click)="removeItem()">
       Remove
